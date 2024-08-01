@@ -3,6 +3,24 @@ import emoji
 player1_pos = 0 
 player2_pos = 0
 final_pos = 25
+intstruction = """
+WELCOME TO THE SNAKE 🐍🐍 AND LADDER 🪜🪜 GAME DEVELOPED BY SHAILESH PAUDEL💕💕
+
+Instruction: 
+Dice has only 4 number 1,2,3,4.
+Player position is start from 0 and completed in 25. 
+But between 0 to 25 there is 3 snake and 2 ladder :
+Ladder:
+5 -> 11
+8 -> 18
+Snake : 
+17 -> 9
+19 -> 9
+24 -> 2
+
+To complete the game you need to get exactly 25  
+"""
+print(intstruction)
 player1 = input("Enter the name of player1: ")
 player2 = input("Enter the name of player2: ")
 

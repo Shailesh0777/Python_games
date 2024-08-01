@@ -1,5 +1,14 @@
+''' 
+------> This game is created by shailesh paudel <-----
+      -----> This game will run in terminal <-------
+'''
+
 import emoji
+
+heart_emoji = emoji.emojize(":red_heart:")
+
 instruction = """ 
+WELCOME TO THE TIC TAC TOE GAME DEVELOVED BY SHAILESH PAUDEL💕💕
 This wiil be our Tic Tac Toe Board
  1 | 2 | 3
 ---|---|---
@@ -15,7 +24,6 @@ This wiil be our Tic Tac Toe Board
  3. Player one goes first
  """
 
-heart_emoji = emoji.emojize(":red_heart:")
 
 sign_dict = []
 for i in range(9):
@@ -56,7 +64,7 @@ def calculate_result(sign_dict, player_one, player_two):
     sign_dict[2] == sign_dict[4] == sign_dict[6] == 'X' or \
     sign_dict[6] == sign_dict[7] == sign_dict[8] == 'X' or \
     sign_dict[0] == sign_dict[3] == sign_dict[6] == 'X' :
-    print(f'Congratulations {player_one}. You WON.!!')
+    print(f'Congratulations {player_one}. You WON{heart_emoji} {heart_emoji}.!!')
     quit(f'Thank you both for joining {heart_emoji} {heart_emoji}')
   elif sign_dict[0] == sign_dict[1] == sign_dict[2] == 'O' or \
        sign_dict[1] == sign_dict[4] == sign_dict[7] == 'O' or \
@@ -66,19 +74,18 @@ def calculate_result(sign_dict, player_one, player_two):
        sign_dict[2] == sign_dict[4] == sign_dict[6] == 'O' or \
        sign_dict[6] == sign_dict[7] == sign_dict[8] == 'O' or \
        sign_dict[0] == sign_dict[3] == sign_dict[6] == 'O' :
-    print(f'Congratulations {player_two}. You WON.!!')
+    print(f'Congratulations {player_two}. You WON{heart_emoji} {heart_emoji}.!!')
     quit(f'Thank you both for joining {heart_emoji} {heart_emoji}')
   else:
     return
 
 
 def main():
-    print(f"WELCOME TO THE GAME!! {heart_emoji} {heart_emoji} ")
+    print(instruction)
     player_one = input("Enter the name of player one :")
     player_two = input("Enter the name of player two :") 
     print(f"Thank you {player_one} and {player_two} for joining in our game {heart_emoji} {heart_emoji} !!!")
 
-    print(instruction)
 
     print(f"{player_one}'s sign will be - X")
     print(f"{player_two}'s sign will be - O")
