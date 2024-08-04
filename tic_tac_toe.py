@@ -1,14 +1,13 @@
 ''' 
 ------> This game is created by shailesh paudel <-----
-      -----> This game will run in terminal <-------
+
 '''
 
 import emoji
-
 heart_emoji = emoji.emojize(":red_heart:")
 
 instruction = """ 
-WELCOME TO THE TIC TAC TOE GAME DEVELOVED BY SHAILESH PAUDEL💕💕
+WELCOME TO THE TIC TAC TOE GAME DEVELOVED BY SHAILESH PAUDEL
 This wiil be our Tic Tac Toe Board
  1 | 2 | 3
 ---|---|---

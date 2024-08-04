@@ -1,11 +1,10 @@
 '''
 ------> This game is created by shailesh paudel <-----
-      -----> This game will run in terminal <-------
 '''
 import random
 
 instruction = '''
-WELCOME TO THE SCISSOR✂️ , PAPER📄 AND ROCK🪨 GAME DEVELOPED BY SHAILESH PAUDEL💕💕
+WELCOME TO THE SCISSOR✂️ , PAPER📄 AND ROCK🪨 GAME
  
 instruction = 
 make your choice by typing Scissor or Paper or Rock 

@@ -1,6 +1,5 @@
 '''
 ------> This game is created by shailesh paudel <-----
-      -----> This game will run in terminal <-------
 '''
 
 
@@ -8,10 +7,10 @@ import random
 import time
 
 instruction = '''
-WELCOME TO THE TIMED MATH CHALLENGE GAME DEVELOPED BY SHAILESH PAUDEL💕💕
+WELCOME TO THE TIMED MATH CHALLENGE GAME DEVELOPED BY SHAILESH PAUDEL
 
 instruction =
-Number are between 3 to 12 so this is not so hard and the operations are only
+Number are between 3 to 12 and the operations are
 addition, subtraction and multiplicaton.
 Computer randomly generate the number and operator and 
 you should answer the question fast as you can 
@@ -19,7 +18,6 @@ if your answer is correct then you will be able to solve another problem
 otherwise the same problem will repeated until you give the right answer 
 And you can solve the n number of problem and the computer computed the time you take 
 to solve n number of problem...
-This game help you to boost your knowledge in mathematics
 '''
 
 print(instruction)

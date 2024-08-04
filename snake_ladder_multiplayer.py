@@ -1,10 +1,14 @@
+'''
+------> This game is created by shailesh paudel <-----
+'''
+
 import random
 import emoji
 player1_pos = 0 
 player2_pos = 0
 final_pos = 25
 intstruction = """
-WELCOME TO THE SNAKE 🐍🐍 AND LADDER 🪜🪜 GAME DEVELOPED BY SHAILESH PAUDEL💕💕
+WELCOME TO THE SNAKE 🐍🐍 AND LADDER 🪜🪜 GAME DEVELOPED BY SHAILESH PAUDEL
 
 Instruction: 
 Dice has only 4 number 1,2,3,4.
